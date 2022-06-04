@@ -1,0 +1,13 @@
+Model Features: minimum_nights	number_of_reviews	reviews_per_month	calculated_host_listings_count	availability_365	DM_Hawaii	DM_Los Angeles	DM_New York City	DM_Rhode Island	DM_Seattle	DM_Entire home/apt	DM_Hotel room	DM_Private room	DM_Shared room
+
+
+Model parameters: ['bootstrap', 'ccp_alpha', 'criterion', 'max_depth', 'max_features', 'max_leaf_nodes', 'max_samples', 'min_impurity_decrease', 'min_impurity_split', 'min_samples_leaf', 'min_samples_split', 'min_weight_fraction_leaf', 'n_estimators', 'n_jobs', 'oob_score', 'random_state', 'verbose', 'warm_start']
+
+
+Model hyperparameters: n_estimators = 1000
+
+
+Model performance metrics:
+1. cross val scores: [0.261, 0.252, 0.277,  0.265,  0.259]
+2. R2 score:  0.256
+3. Mean absolute error: 75.44
